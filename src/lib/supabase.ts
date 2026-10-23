@@ -13,7 +13,7 @@ const envSupabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
 
 export const SHOP_UPI_ID = import.meta.env.VITE_SHOP_UPI_ID || 'sivaramsuresh2007@oksbi';
 export const SHOP_NAME = import.meta.env.VITE_SHOP_NAME || 'siva ram';
-export const SHOP_QR_IMAGE = import.meta.env.VITE_SHOP_QR_IMAGE || '/siva-qr.jpg';
+export const SHOP_QR_IMAGE = import.meta.env.VITE_SHOP_QR_IMAGE || `${import.meta.env.BASE_URL}siva-qr.jpg`;
 
 // Verify if valid Supabase configuration is provided
 export const isSupabaseConfigured = Boolean(
